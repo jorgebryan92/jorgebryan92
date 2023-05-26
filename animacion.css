@@ -1,0 +1,42 @@
+.anima{
+    transform: scale(1.0);
+    transition: 1s ease-in-out;
+    
+}
+.anima:hover{
+    transform: scale(1.5);
+}
+.anima::before{
+    border: solid 4px;
+    background-color: darkmagenta;
+    max-height: 100%;
+    position: absolute;
+    width: 3px;
+    opacity: 1;
+    border-radius: 4px;
+    content: '';
+}
+.prelaleft{
+    position: relative;
+    right: -80px;
+}
+.prelaright{
+    position: relative;
+    left: -96px;
+}
+.boRad{
+    border-radius: 5px;
+}
+.fondobeis{
+    background-color: bisque;
+}
+.shadowletras{
+    text-shadow: 0px 6px 6px black;
+}
+.margenTop{
+    margin-top: 55px;
+}
+.margenBottom{
+    margin-bottom: -170px;
+}
+
