@@ -49,10 +49,10 @@
     margin-top: 10px;
 }
 .shwvideo{
-    box-shadow: 0px 40px 100px black;
+    box-shadow: 0px 40px 100px gray;
 }
 .shwvideoleft{
-    box-shadow: 0px 40px 80px black;
+    box-shadow: 0px 40px 80px gray;
 }
 .width118{
     width: 118%;
