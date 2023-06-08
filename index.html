@@ -279,10 +279,10 @@
                     </div>
             </div>
             <div class="col-8 align-items-center text-center">
-              <p class="small text-white">Rautistrasse 12, 8047 Zurich, Switzerland</p>
+              <p class="text-white">Rautistrasse 12, 8047 Zurich, Switzerland</p>
               <div class="row row-20">
                 <div class="media-body">
-                  <ul class="list list-xs small">
+                  <ul class="list list-xs">
                     <li class="list-item">Mon-Fri: 8am - 6pm</li>
                   </ul>
                 </div>
@@ -336,10 +336,8 @@
 
     <!--CHATBOT---------------------------------------------------------------------------------------------------------------------->
     <button id="chatbot-button">
-      <!--<img src="logo.png" alt="Logo">-->
-      <span class="font12">
-            Abrir Chatbot
-      </span>
+      <img src="images/gif/icochat.gif" alt="Logo">
+      <!--<span class="font12">Abrir Chatbot</span>-->
     </button>
     
     <div class="chatbot-container font12">
@@ -388,7 +386,7 @@
       } else {
         chatbot.classList.remove("animated", "slideInRight");
         chatbot.style.display = "none";
-        button.innerHTML = "<span class='font12'>Abrir Chatbot</span>";
+        button.innerHTML = `<img src="images/gif/icochat.gif" alt="Logo">`;
         isOpen = true;
       }
       
