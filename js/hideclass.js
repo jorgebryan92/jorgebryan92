@@ -71,7 +71,7 @@ function changeclas() {
         elemento4.classList.remove('width-100');
         //plasticeating.style.marginTop = "150px";
 
-        logoTri.style.width = "75px";
+        logoTri.style.width = "95px";
 
         mB30.style.marginBottom = "30px";
 
