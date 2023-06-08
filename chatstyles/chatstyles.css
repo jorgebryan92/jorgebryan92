@@ -81,12 +81,12 @@ CHAT BOT DISEÑO
 }
 #chatbot-button img {
   height: 20px;
-  margin-right: 10px;
+  margin-right: 0px;
 }
 #chatbot-button {
   position: fixed;
-  bottom: 22px;
-  right: 37px;
+  bottom: 10px;
+  right: 15px;
 }
 .font12{
   font-size: 12px;
